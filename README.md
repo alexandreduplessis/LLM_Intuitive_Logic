@@ -1,7 +1,7 @@
 # Investigating the Intuitive Logic behind Autoregressive Language Models
 _Gaia Carenini, Alexandre Duplessis_
 
-This is the code associated to the article [_Investigating the Intuitive Logic behind Autoregressive Language Models_](https://www.overleaf.com/read/rxmbpbggmnxt).
+This is the code associated to the article [_Investigating the Intuitive Logic behind Autoregressive Language Models_](https://github.com/alexandreduplessis/Deep-Learning/blob/main/LLM_Intuitive_Logic.pdf).
 
 ### Usage
 Just go through the two notebooks in ``/notebooks/`` !
