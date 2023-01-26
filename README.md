@@ -11,7 +11,7 @@ Google Colab compatible versions of the notebooks will be provided soon...
 ### Description
 This code bases on the code of the article  [_Locating and Editing Factual Associations in GPT_ ](https://github.com/kmeng01/rome).
 
-- In `/notebooks/final.ipynb`, we investigate the statistical properties of GPT, and apply the causal tracing technique proposed by K. Meng et al.
+- In `/notebooks/final.ipynb` we investigate the statistical properties of GPT, and apply the causal tracing technique proposed by K. Meng et al.
 - In `/notebooks/editing.ipynb` we apply the editing algorithm ROME of K. Meng et al. for logical relations.
 
 
