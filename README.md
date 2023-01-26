@@ -1,10 +1,18 @@
-# Deep Learning Course
+# Investigating the Intuitive Logic behind Autoregressive Language Models
 _Gaia Carenini, Alexandre Duplessis_
 
+This is the code associated to the article [_Investigating the Intuitive Logic behind Autoregressive Language Models_](https://www.overleaf.com/read/rxmbpbggmnxt).
+
+### Usage
+Just go through the two notebooks in ``/notebooks/.`` !
+If you want to execute them yourself just pay attention to the fact that the loaded model (GPT2-XL) takes 6GB of memory space.
+Google Colab compatible versions of the notebooks will be provided soon...
+
 ### Description
-We took some code from [ROME](https://github.com/kmeng01/rome) in order to do interpretability on natural language with GPT2-XL and GPT2-medium. In this notebook we tried to understand the intuitive logic behind logical operators like "and", "or", "but", etc... inside an auto-regressive language models. This work can be found in `/notebooks/final.ipynb`. 
+This code bases on the code of the article  [_Locating and Editing Factual Associations in GPT_ ](https://github.com/kmeng01/rome).
 
-In another notebook we also tried to investigate model editing effects on our interpretation. We cloned [ROME](https://github.com/kmeng01/rome) and created a notebook on which we ran several editing on adjectives and logical operators. This notebook, saved as `/notebooks/editing.ipynb`, has been modified a lot during our hackathon and might be incomplete regarding our experiments. 
+- In `/notebooks/final.ipynb`, we investigate the statistical properties of GPT, and apply the causal tracing technique proposed by K. Meng et al.
+- In `/notebooks/editing.ipynb` we apply the editing algorithm ROME of K. Meng et al. for logical relations.
 
-### Informations
-We ran our experiments on a NVIDIA RTX 3050 with 6GB of memory. 
+
+_Note:_ This project is part of the Deep Learning course of ENS Ulm (2022-2023).
