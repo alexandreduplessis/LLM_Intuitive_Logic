@@ -15,6 +15,14 @@ This code bases on the code of the article  [_Locating and Editing Factual Assoc
 - In `/notebooks/final.ipynb` we investigate the statistical properties of GPT, and apply the causal tracing technique proposed by K. Meng et al.
 - In `/notebooks/editing.ipynb` we apply the editing algorithm ROME of K. Meng et al. for logical relations.
 
+### Requirements
+Must be installed
+- `torch`
+- `numpy`
+- `pandas`
+- `seaborn`
+- `matplotlib`
+- `json`
 
 ---
 _Note:_ This project is part of the Deep Learning course of ENS Ulm (2022-2023).
