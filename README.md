@@ -5,6 +5,7 @@ This is the code associated to the article [_Investigating the Intuitive Logic b
 
 ### Usage
 Just go through the two notebooks in ``/notebooks/.`` !
+
 If you want to execute them yourself just pay attention to the fact that the loaded model (GPT2-XL) takes 6GB of memory space.
 Google Colab compatible versions of the notebooks will be provided soon...
 
@@ -15,4 +16,5 @@ This code bases on the code of the article  [_Locating and Editing Factual Assoc
 - In `/notebooks/editing.ipynb` we apply the editing algorithm ROME of K. Meng et al. for logical relations.
 
 
+---
 _Note:_ This project is part of the Deep Learning course of ENS Ulm (2022-2023).
